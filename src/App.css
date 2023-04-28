@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mainDiv{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lobby{
+  margin-top: 20vh;
+  border: 1px solid black;
+  width: 30vw;
+  height: 43vh;
+}
+
+
+@media screen and (max-width: 900px) {
+  .lobby{
+    margin-top: 20vh;
+    border: 1px solid black;
+    width: 50vw;
+    height: 45vh;
+  }
+}
+
+input{
+  font-size: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+button{
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+
+
+
+ */
+
+ .lobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #ff6600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+input[type="email"],
+input[type="text"] {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0055cc;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.stream {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+}
+
+.stream video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stream button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1,
+h4 ,h3{
+  text-align: center;
+}
+h4{
+  color:#8b5fbf
+}
+
+.bttn {
+  padding: 10px 20px;
+  background-color: #005792;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.bttn:hover {
+  background-color: #00416e;
+}
+
+
